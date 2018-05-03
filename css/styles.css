@@ -1,4 +1,29 @@
+/* !HELPER! */
+.lobster {
+  font-family: 'Lobster', cursive;
+}
 
+.raleway-300 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.raleway-400, p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.raleway-700 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.playfair-700 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+/* ^HELPER^ */
+/* !NAV! */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
@@ -14,7 +39,8 @@
 .navbar-default .navbar-nav li a {
   color: #fff;
 }
-
+/* ^NAV^ */
+/* !HERO! */
 .carousel-inner .item {
   height: 60vh;
   background-size: cover;
@@ -42,7 +68,33 @@
 
 }
 
-.btn-color-o {
+.btn-carousel {
   background-color: #F8512F;
   border: none;
 }
+/* ^HERO^ */
+/* !STORY! */
+.our-story {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.our-story h1 {
+  color: #f8512f;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.our-story h3 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.our-story h2 {
+  font-size: 10em;
+  color:rgba(149, 147, 147, 0.2);
+  position: absolute;
+  z-index: -1;
+}
+/* ^STORY^ */
