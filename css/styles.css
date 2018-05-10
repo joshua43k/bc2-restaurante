@@ -1,5 +1,5 @@
 /* !HELPER! */
-.lobster {
+.lobster{
   font-family: 'Lobster', cursive;
 }
 
@@ -8,12 +8,13 @@
   font-weight: 300;
 }
 
-.raleway-400, p {
+.raleway-400, p, h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
-.raleway-700 {
+.raleway-700 ,
+.contact h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
@@ -39,6 +40,12 @@
 .navbar-default .navbar-nav li a {
   color: #fff;
 }
+
+.navbar-default .navbar-nav li a:hover {
+  color: #F8512F;
+  background-color: rgba(17, 17, 17, .5);
+}
+
 /* ^NAV^ */
 /* !HERO! */
 .carousel-inner .item {
@@ -98,3 +105,78 @@
   z-index: -1;
 }
 /* ^STORY^ */
+/* !FRESNO-BEE! */
+.bee-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-image: url(../img/food_review.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bee-review h1 {
+  color: #f8512f;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.bee-review p {
+  color: #fff;
+}
+
+.bee-review .container {
+  background-color: rgba(20, 20, 20, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+/* ^FRESNO-BEE^ */
+/* !MENU! */
+.rest-menu {
+  background-image: url("../img/black_linen.png");
+  background-size: cover;
+  min-height: 600px;
+}
+
+.rest-menu h1 {
+  color: #fff;
+}
+
+.rest-menu a {
+  color: #f8512f;
+  text-transform: uppercase;
+}
+
+.food {
+  background-color: #fff;
+}
+/* ^MENU^ */
+.contact {
+  background-color: #f8512f;
+  min-height: 600px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.contact h1 {
+  font-size: 4em;
+  margin-top: 50px;
+}
+
+.contact form{
+  background-color: #FF6633;
+  max-width: 22.5em;
+  border: 1px solid #fff;
+  padding: 1em;
+}
+
+.contact .form-group span {
+  color: #FF6633;
+}
+
+.conact iframe {
+  width: 400px;
+  height: 150px;
+}
